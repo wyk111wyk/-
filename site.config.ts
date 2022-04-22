@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '557363e1797a4fd1943afec8a8a2c002',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'AmosStudio Blog',
+  domain: 'blog.amosstudio.com.cn',
+  author: 'Amos Wu',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: '相关应用的开发日志、近况、计划等的发布',
 
   // social usernames (optional)
   twitter: 'transitive_bs',
@@ -29,6 +29,9 @@ export default siteConfig({
 
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
+
+  // Utteranc.es comments via GitHub issue comments (optional)
+  utterancesGitHubRepo: 'wyk111wyk/amosstudio.github.io',
 
   // whether or not redis is enabled for caching generated preview images (optional)
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
