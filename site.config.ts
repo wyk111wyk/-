@@ -16,11 +16,6 @@ export default siteConfig({
   // open graph metadata (optional)
   description: '相关应用的开发日志、近况、计划等的发布',
 
-  // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
-
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
   defaultPageIcon: null,
