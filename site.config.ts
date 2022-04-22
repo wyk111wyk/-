@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '557363e1797a4fd1943afec8a8a2c002',
+  rootNotionPageId: '56c30b27eca849f6b7ccc61779cc21ba',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'AmosStudio Blog',
-  domain: 'blog.amosstudio.com.cn',
+  name: '小白健身指南',
+  domain: 'sport.amosstudio.com.cn',
   author: 'Amos Wu',
 
   // open graph metadata (optional)
-  description: '相关应用的开发日志、近况、计划等的发布',
+  description: 'AK23智能健身房官方运动指南',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
