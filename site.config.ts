@@ -31,7 +31,7 @@ export default siteConfig({
   isPreviewImageSupportEnabled: true,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  // utterancesGitHubRepo: 'wyk111wyk/amosstudio.github.io',
+  utterancesGitHubRepo: 'wyk111wyk/amosstudio.github.io',
 
   // whether or not redis is enabled for caching generated preview images (optional)
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
